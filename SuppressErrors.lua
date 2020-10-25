@@ -7,7 +7,6 @@ local SV
 
 
 
-
 local function HandleLuaErrorEvent()
 
 	EVENT_MANAGER:UnregisterForEvent("ErrorFrame", EVENT_LUA_ERROR)
